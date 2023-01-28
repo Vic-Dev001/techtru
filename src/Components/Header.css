@@ -1,0 +1,36 @@
+@import url("./Root.css");
+
+.header{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+}
+.nav-item-custom{
+    font-size: 2rem;
+    color: white;
+}
+.highlight{
+    position: relative;
+    color: white;
+    z-index: 1;
+    
+}
+.highlight::after{
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    transform: scale(1.07, 1.05) skewX(-15deg);
+    background-image: var(--gradient-primary);
+    
+
+}
+
+

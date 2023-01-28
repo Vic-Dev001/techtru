@@ -1,0 +1,18 @@
+:root {
+    --default-font-family: Montserrat, Helvetica, Arial, sans-serif;
+    --default-screen-font: 62.5%;
+    --color-scheme: light dark;
+    --color-dark: rgba(255, 255, 255, 0.87);
+    --black-theme: rgba(36,36,36, 0.9);
+    --color-primary: #FCE38A;
+    --color-primary-light: rgba(252,227,138,0.82);
+    --gradient-primary: linear-gradient(to top left, #FCE38A, #9be15d);
+    
+  }
+  body{
+    font-family: "Montserrat", sans-serif;
+}
+html{
+  font-size: 62.5%;
+}
+  
