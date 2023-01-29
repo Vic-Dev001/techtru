@@ -15,13 +15,11 @@ function Header(props) {
           }}>
           <nav className='navbar navbar-expand-lg'>
             <div>
-              <a class='navbar-brand' href='/'>
-                <img
+              <Link to={"/"} className='navbar-brand' ><img
                   src='../src/assets/images/main-logo.png'
                   alt=''
                   width={"50%"}
-                />{" "}
-              </a>
+                /></Link>
               <button
                 className='navbar-toggler'
                 style={{ backgroundColor: "white" }}
@@ -102,6 +100,7 @@ function Header(props) {
         </div>
 
       </main>
+
     </>
   );
 }
