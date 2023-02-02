@@ -3,6 +3,7 @@ import Work from "../Pages/Works";
 import About from "../Pages/About";
 import Contact from "../Pages/Contact";
 import Services from "../Pages/Services";
+import ErrorPage from "../Pages/ErrorPage";
 
 import App from "../App";
 
@@ -12,6 +13,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage />
   },
   {
     path:"/home",
